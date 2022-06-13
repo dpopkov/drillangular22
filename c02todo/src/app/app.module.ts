@@ -7,6 +7,8 @@ import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatIconModule} from "@angular/material/icon";
 import {MatBadgeModule} from "@angular/material/badge";
 import {MatTableModule} from "@angular/material/table";
+import {MatCheckboxModule} from "@angular/material/checkbox";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -15,8 +17,9 @@ import {MatTableModule} from "@angular/material/table";
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    FormsModule,
     MatToolbarModule, MatIconModule, MatBadgeModule,
-    MatTableModule
+    MatTableModule, MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

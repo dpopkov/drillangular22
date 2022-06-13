@@ -6,6 +6,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatIconModule} from "@angular/material/icon";
 import {MatBadgeModule} from "@angular/material/badge";
+import {MatTableModule} from "@angular/material/table";
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {MatBadgeModule} from "@angular/material/badge";
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatToolbarModule, MatIconModule, MatBadgeModule
+    MatToolbarModule, MatIconModule, MatBadgeModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -7,3 +7,4 @@
 * Angular Materials (mat-toolbar, mat-icon, mat-badge)
 * Angular Materials (mat-table with datasource)
 * Two-way Data Binding with mat-checkbox
+* Input field (matInput), click event on button

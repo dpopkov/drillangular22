@@ -4,3 +4,4 @@
 
 ## Project 1: [Todo](c02todo)
 
+* Angular Materials (mat-toolbar, mat-icon, mat-badge)

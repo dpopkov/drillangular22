@@ -9,7 +9,7 @@ import {TodoItem} from "./model/todoItem";
 })
 export class AppComponent {
   private list = new TodoList("Alice", [
-    new TodoItem("Go for long run", true),
+    new TodoItem("Go for long run"),
     new TodoItem("Get some milk"),
     new TodoItem("Collect garbage")
   ]);
@@ -23,6 +23,6 @@ export class AppComponent {
   }
 
   get items(): readonly TodoItem[] {
-    return this.list.items;
+    return this.list.items.filter(item => !item.complete);
   }
 }
